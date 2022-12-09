@@ -104,8 +104,8 @@ public class UdonListSample : UdonSharpBehaviour
      <td> </td>
    </tr>
    <tr>
-     <td nowrap><code> object[] GetRange(int index, int count) </code></td>
-     <td> ! </td>
+     <td nowrap><code> UdonList&lt;T&gt; GetRange(int index, int count) </code></td>
+     <td> </td>
    </tr>
    <tr>
      <td nowrap><code> int IndexOf(T item) </code></td>
