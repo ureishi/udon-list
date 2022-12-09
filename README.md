@@ -58,20 +58,11 @@ public class UdonListSample : UdonSharpBehaviour
 </table>
 
 ### Properties
-<table>
-   <tr>
-     <td nowrap><code> int Capacity </code></td>
-     <td> <code>Capacity()</code>, <code>SetCapacity(int capacity)</code> </td>
-   </tr>
-   <tr>
-     <td nowrap><code> int Count </code></td>
-     <td> <code>Count()</code> </td>
-   </tr>
-   <tr>
-     <td nowrap><code> T Item </code></td>
-     <td> <code>GetItem(int index)</code>, <code>SetItem(T item)</code> </td>
-   </tr>
-</table>
+| Property | get                         | set                                         |
+| -------- | :-------------------------- | :------------------------------------------ |
+| Capacity | <code>int Capacity()</code> | <code>void SetCapacity(int capacity)</code> |
+| Count    | <code>int Count()</code>    |                                             |
+| Item     | <code>T GetItem()</code>    | <code>void SetItem(T item)</code>           |
 
 ### Methods
 <table>
