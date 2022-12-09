@@ -13,7 +13,7 @@ public class UdonListSample : UdonSharpBehaviour
 {
     public void Start()
     {
-        var list = UdonStringList.New(); // []
+        var list = UdonList<string>.New(); // []
         list.Add("first"); // ["first"];
         list.Add("second"); // ["first", "second"]
         list.Add("third"); // ["first", "second", "third"]
