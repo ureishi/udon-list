@@ -44,15 +44,15 @@ public class UdonListSample : UdonSharpBehaviour
 ### Constructors
 <table>
    <tr>
-     <td nowrap><code>UdonList&lt;T&gt;()</code></td>
+     <td nowrap><code>UdonList&lt;T&gt;.New()</code></td>
      <td> </td>
    </tr>
    <tr>
-     <td nowrap><code>UdonList&lt;T&gt;(T[] collection)</code></td>
+     <td nowrap><code>UdonList&lt;T&gt;.New(T[] collection)</code></td>
      <td> </td>
    </tr>
    <tr>
-     <td nowrap><code>UdonList&lt;T&gt;(int capacity)</code></td>
+     <td nowrap><code>UdonList&lt;T&gt;.New(int capacity)</code></td>
      <td> </td>
    </tr>
 </table>
