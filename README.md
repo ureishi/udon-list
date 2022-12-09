@@ -5,7 +5,7 @@ List implementation for UdonSharp.
 ## Example
 
 String list exmaple.
-You can also make UdonList<int>, UdonList<float>, UdonList<bool>, UdonList<object> and so on.
+You can also make UdonList\<int\>, UdonList\<float\>, UdonList\<bool\>, UdonList\<object\> and so on.
 
 ```cs
 using UnityEngine;
